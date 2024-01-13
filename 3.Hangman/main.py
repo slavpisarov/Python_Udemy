@@ -33,6 +33,6 @@ while "_" in display and lives >= 0:
   print(display)
 
 if lives<0:
-  print("You lost")
+  print(f"You lost.The correct words is: {chosen_word}")
 else:
   print("You won!")
